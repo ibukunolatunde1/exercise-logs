@@ -1,0 +1,401 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-16T19:35:23.295Z"}
+info: Connected to the database. {"timestamp":"2020-12-16T19:35:23.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-17T13:37:29.131Z"}
+info: Connected to the database. {"timestamp":"2020-12-17T13:37:29.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-17T14:59:59.846Z"}
+info: Connected to the database. {"timestamp":"2020-12-17T15:00:00.171Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/43787834 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2020-12-17T15:00:53.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-17T15:07:39.656Z"}
+info: Connected to the database. {"timestamp":"2020-12-17T15:07:39.808Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "43787834" at path "_id" for model "User"
+    at model.Query.exec (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\query.js:4450:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
+    url - /api/v1/users/43787834 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2020-12-17T15:07:44.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-17T15:08:18.127Z"}
+info: Connected to the database. {"timestamp":"2020-12-17T15:08:18.268Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/43787834 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2020-12-17T15:08:23.025Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-17T15:11:33.787Z"}
+info: Connected to the database. {"timestamp":"2020-12-17T15:11:33.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-17T15:28:36.293Z"}
+info: Connected to the database. {"timestamp":"2020-12-17T15:28:36.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-17T15:35:24.932Z"}
+info: Connected to the database. {"timestamp":"2020-12-17T15:35:25.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-17T18:52:32.636Z"}
+info: Connected to the database. {"timestamp":"2020-12-17T18:52:32.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-17T20:01:38.012Z"}
+info: Connected to the database. {"timestamp":"2020-12-17T20:01:38.323Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:25:58.132Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:25:58.360Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\services\/restaurant.service.js:6:30)
+    at tryCatch (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.postCreateRestaurant (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\services\/restaurant.service.js:5:34)
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\controllers\/restaurant.controller.js:7:46)
+    at tryCatch (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/restaurants 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2020-12-18T19:35:19.453Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:41:37.025Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:41:37.267Z"}
+error: 
+    status - 500 
+    message - ValidationError: Restaurant validation failed: imgsrc: Cast to string failed for value "Promise { <pending> }" at path "imgsrc", phonenumber: Path `phonenumber` is required., areacode: Path `areacode` is required., name: Path `name` is required.
+    at model.Document.invalidate (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:2688:32)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1301:12)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1010:16)
+    at model.Document (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:150:12)
+    at model.Model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:4693:15)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3055:22
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3091:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3090:15
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\index.js:1135:10)
+    at Function.create (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3025:23)
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\services\/restaurant.service.js:5:35) 
+    url - /api/v1/restaurants 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2020-12-18T19:41:51.514Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:45:00.427Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:45:00.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:45:19.081Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:45:19.299Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:46:44.755Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:46:44.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:48:57.863Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:48:58.031Z"}
+error: 
+    status - 500 
+    message - ValidationError: Restaurant validation failed: imgsrc: Cast to string failed for value "Promise { <pending> }" at path "imgsrc"
+    at model.Document.invalidate (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:2688:32)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1301:12)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1010:16)
+    at model.Document (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:150:12)
+    at model.Model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:4693:15)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3055:22
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3091:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3090:15
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\index.js:1135:10)
+    at Function.create (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3025:23)
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\services\/restaurant.service.js:5:35) 
+    url - /api/v1/restaurants 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2020-12-18T19:49:35.329Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:49:59.395Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:49:59.603Z"}
+error: uncaughtException: input.slice is not a function
+TypeError: input.slice is not a function
+    at Class.reader [as _from] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\into-stream\index.js:74:23)
+    at Class._read (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\from2\index.js:68:10)
+    at Class.Readable.read (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\readable-stream\lib\_stream_readable.js:443:10)
+    at resume_ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\readable-stream\lib\_stream_readable.js:790:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {"error":{},"stack":"TypeError: input.slice is not a function\n    at Class.reader [as _from] (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\into-stream\\index.js:74:23)\n    at Class._read (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\from2\\index.js:68:10)\n    at Class.Readable.read (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\readable-stream\\lib\\_stream_readable.js:443:10)\n    at resume_ (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\readable-stream\\lib\\_stream_readable.js:790:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","exception":true,"date":"Fri Dec 18 2020 20:50:02 GMT+0100 (West Africa Standard Time)","process":{"pid":11296,"uid":null,"gid":null,"cwd":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["node","C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\index.js"],"memoryUsage":{"rss":110202880,"heapTotal":80490496,"heapUsed":53017224,"external":21410848,"arrayBuffers":19320029}},"os":{"loadavg":[0,0,0],"uptime":16762},"trace":[{"column":23,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\into-stream\\index.js","function":"Class.reader [as _from]","line":74,"method":"reader [as _from]","native":false},{"column":10,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\from2\\index.js","function":"Class._read","line":68,"method":"_read","native":false},{"column":10,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"Class.Readable.read","line":443,"method":"read","native":false},{"column":12,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"resume_","line":790,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":84,"method":null,"native":false}],"timestamp":"2020-12-18T19:50:02.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:50:58.934Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:50:59.152Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:315:20)
+    at Busboy.EventEmitter.emit (domain.js:482:12)
+    at Busboy.emit (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:315:20)
+    at PartStream.EventEmitter.emit (domain.js:482:12)
+    at HeaderParser.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:315:20)
+    at HeaderParser.EventEmitter.emit (domain.js:482:12)
+    at HeaderParser._finish (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\dicer\lib\HeaderParser.js:40:12)
+    at SBMH.emit (events.js:315:20)
+    at SBMH.EventEmitter.emit (domain.js:482:12)
+    at SBMH._sbmh_feed (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\streamsearch\lib\sbmh.js:159:14) 
+    url - /api/v1/restaurants 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2020-12-18T19:51:09.264Z"}
+error: 
+    status - 500 
+    message - ValidationError: Restaurant validation failed: imgsrc: Cast to string failed for value "Promise { <pending> }" at path "imgsrc"
+    at model.Document.invalidate (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:2688:32)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1301:12)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1010:16)
+    at model.Document (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:150:12)
+    at model.Model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:4693:15)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3055:22
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3091:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3090:15
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\index.js:1135:10)
+    at Function.create (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3025:23)
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\services\/restaurant.service.js:5:35) 
+    url - /api/v1/restaurants 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2020-12-18T19:51:21.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:53:52.568Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:53:52.875Z"}
+error: 
+    status - 500 
+    message - ValidationError: Restaurant validation failed: imgsrc: Cast to string failed for value "Promise { <pending> }" at path "imgsrc"
+    at model.Document.invalidate (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:2688:32)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1301:12)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1010:16)
+    at model.Document (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:150:12)
+    at model.Model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:4693:15)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3055:22
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3091:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3090:15
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\index.js:1135:10)
+    at Function.create (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3025:23)
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\services\/restaurant.service.js:5:35) 
+    url - /api/v1/restaurants 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2020-12-18T19:53:53.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:56:09.351Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:56:09.505Z"}
+error: 
+    status - 500 
+    message - ValidationError: Restaurant validation failed: imgsrc: Cast to string failed for value "Promise { <pending> }" at path "imgsrc"
+    at model.Document.invalidate (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:2688:32)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1301:12)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1010:16)
+    at model.Document (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:150:12)
+    at model.Model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:4693:15)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3055:22
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3091:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3090:15
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\index.js:1135:10)
+    at Function.create (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3025:23)
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\services\/restaurant.service.js:5:35) 
+    url - /api/v1/restaurants 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2020-12-18T19:56:15.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:57:59.251Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:57:59.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:58:18.791Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:58:18.995Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\pirates\lib\index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\pirates\lib\index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\node\lib\_babel-node.js:172:21)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":3000},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n    at listenInCluster (net.js:1361:12)\n    at Server.listen (net.js:1447:7)\n    at Function.listen (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Module._compile (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js:99:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Object.newLoader [as .js] (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js:104:7)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n    at Object.<anonymous> (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\@babel\\node\\lib\\_babel-node.js:172:21)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)","exception":true,"date":"Fri Dec 18 2020 20:58:18 GMT+0100 (West Africa Standard Time)","process":{"pid":4896,"uid":null,"gid":null,"cwd":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["node","C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\index.js"],"memoryUsage":{"rss":105836544,"heapTotal":77869056,"heapUsed":53228264,"external":21547982,"arrayBuffers":19457163}},"os":{"loadavg":[0,0,0],"uptime":17258},"trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1313,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1361,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1447,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":99,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":7,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":104,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":71,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":172,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false}],"timestamp":"2020-12-18T19:58:19.019Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\pirates\lib\index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\pirates\lib\index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\node\lib\_babel-node.js:172:21)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":3000},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n    at listenInCluster (net.js:1361:12)\n    at Server.listen (net.js:1447:7)\n    at Function.listen (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Module._compile (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js:99:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Object.newLoader [as .js] (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js:104:7)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n    at Object.<anonymous> (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\@babel\\node\\lib\\_babel-node.js:172:21)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)","exception":true,"date":"Fri Dec 18 2020 20:58:38 GMT+0100 (West Africa Standard Time)","process":{"pid":8296,"uid":null,"gid":null,"cwd":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["node","C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\index.js"],"memoryUsage":{"rss":106770432,"heapTotal":79179776,"heapUsed":45580344,"external":20392250,"arrayBuffers":18301431}},"os":{"loadavg":[0,0,0],"uptime":17278},"trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1313,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1361,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1447,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":99,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":7,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":104,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":71,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":172,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false}],"timestamp":"2020-12-18T19:58:38.503Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\pirates\lib\index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\pirates\lib\index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\node\lib\_babel-node.js:172:21)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":3000},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n    at listenInCluster (net.js:1361:12)\n    at Server.listen (net.js:1447:7)\n    at Function.listen (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Module._compile (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js:99:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Object.newLoader [as .js] (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js:104:7)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n    at Object.<anonymous> (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\@babel\\node\\lib\\_babel-node.js:172:21)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)","exception":true,"date":"Fri Dec 18 2020 20:58:53 GMT+0100 (West Africa Standard Time)","process":{"pid":10960,"uid":null,"gid":null,"cwd":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["node","C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\index.js"],"memoryUsage":{"rss":105984000,"heapTotal":77869056,"heapUsed":56095264,"external":21582832,"arrayBuffers":19492013}},"os":{"loadavg":[0,0,0],"uptime":17293},"trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1313,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1361,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1447,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":99,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":7,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":104,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":71,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":172,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false}],"timestamp":"2020-12-18T19:58:53.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:59:12.321Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:59:12.516Z"}
+error: 
+    status - 500 
+    message - ValidationError: Restaurant validation failed: imgsrc: Cast to string failed for value "Promise { <pending> }" at path "imgsrc"
+    at model.Document.invalidate (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:2688:32)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1301:12)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1010:16)
+    at model.Document (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:150:12)
+    at model.Model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:4693:15)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3055:22
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3091:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3090:15
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\index.js:1135:10)
+    at Function.create (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3025:23)
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\services\/restaurant.service.js:5:35) 
+    url - /api/v1/restaurants 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2020-12-18T19:59:19.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T19:59:39.424Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T19:59:39.590Z"}
+error: 
+    status - 500 
+    message - ValidationError: Restaurant validation failed: imgsrc: Cast to string failed for value "Promise { <pending> }" at path "imgsrc"
+    at model.Document.invalidate (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:2688:32)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1301:12)
+    at model.$set (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:1010:16)
+    at model.Document (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\document.js:150:12)
+    at model.Model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:4693:15)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3055:22
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3091:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3090:15
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\index.js:1135:10)
+    at Function.create (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\mongoose\lib\model.js:3025:23)
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\services\/restaurant.service.js:5:35) 
+    url - /api/v1/restaurants 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2020-12-18T19:59:43.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T20:00:01.948Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T20:00:02.144Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T20:03:43.132Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T20:03:43.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T20:03:55.334Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T20:03:55.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T20:04:56.737Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T20:04:56.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T23:37:00.985Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T23:37:01.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T23:42:30.883Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T23:42:31.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T23:43:08.299Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T23:43:08.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2020-12-18T23:44:35.148Z"}
+info: Connected to the database. {"timestamp":"2020-12-18T23:44:35.352Z"}
+info: Server started at http://localhost:3002/api/v1/ {"timestamp":"2020-12-22T13:37:39.314Z"}
+info: Connected to the database. {"timestamp":"2020-12-22T13:37:39.517Z"}
+info: Server started at http://localhost:3002/api/v1/ {"timestamp":"2020-12-22T13:45:49.390Z"}
+info: Connected to the database. {"timestamp":"2020-12-22T13:45:49.568Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/restaurants/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2020-12-22T13:45:57.280Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3002
+Error: listen EADDRINUSE: address already in use :::3002
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\pirates\lib\index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\pirates\lib\index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (C:\Users\AzureUser\Documents\fastfoodfast-microservice\restaurant-service\node_modules\@babel\node\lib\_babel-node.js:172:21)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":3002},"stack":"Error: listen EADDRINUSE: address already in use :::3002\n    at Server.setupListenHandle [as _listen2] (net.js:1313:16)\n    at listenInCluster (net.js:1361:12)\n    at Server.listen (net.js:1447:7)\n    at Function.listen (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Module._compile (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js:99:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Object.newLoader [as .js] (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js:104:7)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n    at Object.<anonymous> (C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\@babel\\node\\lib\\_babel-node.js:172:21)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)","exception":true,"date":"Mon Dec 28 2020 12:05:18 GMT+0100 (West Africa Standard Time)","process":{"pid":4872,"uid":null,"gid":null,"cwd":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["node","C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\index.js"],"memoryUsage":{"rss":105095168,"heapTotal":76824576,"heapUsed":44516056,"external":21178510,"arrayBuffers":19087691}},"os":{"loadavg":[0,0,0],"uptime":2925},"trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1313,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1361,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1447,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":99,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":7,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":104,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":71,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\AzureUser\\Documents\\fastfoodfast-microservice\\restaurant-service\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":172,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false}],"timestamp":"2020-12-28T11:05:18.439Z"}
